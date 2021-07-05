@@ -1,0 +1,19 @@
+--
+CREATE DATABASE permainan;
+
+--
+CREATE TABLE sepakbola(
+    -> id_pemain INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    -> nama_pemain VARCHAR(100) NOT NULL,
+    -> usia_pemain int(2) NOT NULL,
+    -> posisi_pemain VARCHAR(50)
+    -> );
+
+--
+ALTER TABEL sepakbola RENAME sepakbola_indonesia;
+
+--
+DROP TABLE sepakbola_indonesia;
+
+--
+DROP DATABASE permainan;
